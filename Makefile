@@ -8,7 +8,7 @@ run:
 clean:
 	rm -rf __pycache__
 
-ests_run:
+tests_run:
 	echo "test_runs"
 
 fclean: clean
