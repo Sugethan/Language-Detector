@@ -5,5 +5,8 @@ setup: requirements.txt
 run:
 	. venv/bin/activate && echo "./exemple_text.txt" | python3 LDetection.py
 
+clean:
+	rm -rf __pycache__
+
 fclean: clean
-	rm -rf __pycache__ venv
+	rm -rf venv
