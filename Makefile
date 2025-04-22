@@ -8,5 +8,8 @@ run:
 clean:
 	rm -rf __pycache__
 
+ests_run:
+	echo "test_runs"
+
 fclean: clean
 	rm -rf venv
